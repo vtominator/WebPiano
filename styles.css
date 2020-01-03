@@ -29,7 +29,18 @@ body {
 }
 
 .white.active {
-    background-color: #CCC;
+  background-color: #ccc;
+}
+
+.note-text {
+  display: flex;
+  margin: 0;
+  padding: 30px;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .black {
@@ -38,8 +49,9 @@ body {
   margin-left: calc(var(--width) / -2);
   margin-right: calc(var(--width) / -2);
   z-index: 2;
+  color: white;
 }
 
 .black.active {
-    background-color: #333;
+  background-color: #333;
 }
